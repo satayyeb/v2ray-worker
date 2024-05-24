@@ -7,7 +7,7 @@
 
 To be completed...
 
-## Deploy 
+## Deploy
  1. Fork this Repo and enable Github Action
  2. Open CloudFlare and create KV namespace with name `settings` then copy the ID
  3. Go to this forked repo and set secrets with name `KV_NAME` and fill with KV settings ID
@@ -18,3 +18,4 @@ To be completed...
 
 ### Credits
 Built-in vless config generator is based on [Zizifn Edge Tunnel](https://github.com/zizifn/edgetunnel), re-written using Typescript.
+Proxy IPs source: https://rentry.co/CF-proxyIP
